@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view>
+  <view class="location" bindtap='getFoodClass'>
+    <image class="location-avatar" src="{{foodImage}}"/>
+    <text class="location-text">{{foodText}}</text>
+  </view>
+  <view class="location" bindtap='getFoodNearby'>
+    <image class="location-avatar" src="{{searchImage}}"/>
+    <text class="location-text">{{searchText}}</text>
+  </view>
+  <view class="swiper">
+    <swiper indicator-dots="true" circular="true"
+    indicator-color="gray" indicator-active-color="white">
+    <block wx:for="{{searchList}}">
+      <swiper-item>
+        <text>店名：{{item.title}}</text>
+        <text>\n地址：{{item.address}}</text>
+      </swiper-item>
+    </block>
+    </swiper>
+  </view>
+  <!--view class="location" bindtap='getLocation'>
+    <image class="location-avatar" src="{{locationImage}}"/>
+    <text class="location-text">{{locationText}}</text>
+  </view-->
+</view>

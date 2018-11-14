@@ -1,0 +1,13 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundColor": "#222",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#222",
+    "navigationBarTitleText": "熊猫吃什么",
+    "navigationBarTextStyle": "white"
+  }
+}
