@@ -7,7 +7,7 @@
     "backgroundColor": "#222",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#222",
-    "navigationBarTitleText": "熊猫吃什么",
+    "navigationBarTitleText": "熊猫今天吃什么",
     "navigationBarTextStyle": "white"
   }
 }
